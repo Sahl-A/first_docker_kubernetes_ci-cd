@@ -9,7 +9,7 @@ const dbUser = process.env.DB_USER || "kelvin_mai";
 const dbDatabase = process.env.DB_DATABASE || "remove_me";
 const dbPassword = process.env.DB_PASSWORD || "123456";
 const dbPort = process.env.DB_PORT || 5432;
-const dbHost = process.env.DB_HOST || "localhost";
+const dbHost = process.env.DB_HOST || "localhost"; 
 
 const pool = new Pool({
   user: dbUser,
